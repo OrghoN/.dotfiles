@@ -2,3 +2,16 @@ alias logout='gnome-session-quit'
 alias nautilus='nautilus . &'
 alias tor-browser-en='tor-browser-en &'
 alias upgrade='yaourt -Syu'
+
+function _cmslpc(){
+  # echo [ -n "$1" ]
+  # if [ -n "$1" ]
+  # then
+  #   git commit -m "$1"
+  # else
+  #   git commit -m update
+  # fi
+  # git push
+}
+
+alias cmslpc='echo test'
