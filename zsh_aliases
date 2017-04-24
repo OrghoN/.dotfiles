@@ -4,14 +4,12 @@ alias tor-browser-en='tor-browser-en &'
 alias upgrade='yaourt -Syu'
 
 function _cmslpc(){
-  # echo [ -n "$1" ]
-  # if [ -n "$1" ]
-  # then
-  #   git commit -m "$1"
-  # else
-  #   git commit -m update
-  # fi
-  # git push
+  if (($# == 0))
+  then
+    ssh -Y -K oneogi@cmslpc-sl6.fnal.gov
+  else
+    ssh -Y -K oneogi@cmslpc$1.fnal.gov
+  fi
 }
 
-alias cmslpc='echo test'
+alias cmslpc='_cmslpc'
