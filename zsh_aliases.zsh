@@ -28,3 +28,4 @@ function _dune(){
 
 alias cmslpc='_cmslpc'
 alias dune='_dune'
+alias lxplus='ssh -Y oneogi@lxplus.cern.ch'
