@@ -3,7 +3,7 @@ alias nautilus='nautilus . &'
 alias tor-browser-en='tor-browser-en &'
 alias upgrade='yaourt -Syu'
 alias emacs="emacs -nw"
-alias kinit="kinit -a -r7d"
+alias kinit="kinit -a -r7d -f"
 
 #ssh aliases
 function _cmslpc(){
