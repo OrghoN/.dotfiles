@@ -18,7 +18,7 @@ function _cmslpc(){
 
 function _dune(){
   if (($# == 0)); then
-    nodeNumber=$(( $RANDOM % 10 ))
+    nodeNumber=$(( $RANDOM % 9 +1))
     ssh -Y -K oneogi@dunegpvm0$nodeNumber.fnal.gov
   else
     if (($1 < 10)); then
