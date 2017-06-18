@@ -4,7 +4,7 @@ alias tor-browser-en='tor-browser-en &'
 alias upgrade='yaourt -Syu'
 
 alias emacs="emacs -nw"
-alias kinit="kinit -a -r7d -f"
+#alias kinit="kinit -a -r7d -f"
 alias productList="ups list -aK+"
 #ssh aliases
 function _cmslpc(){
