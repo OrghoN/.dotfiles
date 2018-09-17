@@ -1,0 +1,79 @@
+# defaultSettings.yaml for latexindent.pl, version 3.5.1, 2018-09-15
+#                      a script that aims to
+#                      beautify .tex, .sty, .cls files
+#
+# (or latexindent.exe if you're on Windows)
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# See http://www.gnu.org/licenses/.
+#
+# Chris Hughes, 2017
+#
+# For all communication, please visit: https://github.com/cmhughes/latexindent.pl
+
+
+# You're welcome to change anything you like in here, but
+# it would probably be better to have your own user settings
+# files somewhere else - remember that this file may be overwritten
+# when you update your distribution. Please see the manual
+# for details of how to setup your own settings files.
+#
+# Please read the manual first to understand what each switch does.
+
+# if you want the script to look for \item commands
+# and format it, as follows (for example),
+#       \begin{itemize}
+#           \item content here
+#                 next line is indented
+#                 next line is indented
+#           \item another item
+#       \end{itemize}
+# then populate indentAfterItems. See also itemNames
+indentAfterItems:
+    itemize: 1
+    enumerate: 1
+    description: 1
+    list: 1
+
+# if you want to add indentation after
+# a heading, such as \part, \chapter, etc
+# then populate it in here - you can add
+# an indent rule to indentRules if you would
+# like something other than defaultIndent
+#
+# you can also change the level if you like,
+# or add your own title command
+indentAfterHeadings:
+    part:
+       indentAfterThisHeading: 1
+       level: 1
+    chapter:
+       indentAfterThisHeading: 1
+       level: 2
+    section:
+       indentAfterThisHeading: 1
+       level: 3
+    subsection:
+       indentAfterThisHeading: 1
+       level: 4
+    subsection*:
+       indentAfterThisHeading: 1
+       level: 4
+    subsubsection:
+       indentAfterThisHeading: 1
+       level: 5
+    paragraph:
+       indentAfterThisHeading: 1
+       level: 6
+    subparagraph:
+       indentAfterThisHeading: 1
+       level: 7
