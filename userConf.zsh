@@ -40,7 +40,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colored-man-pages colorize cp git github node npm pip dirpersist zsh-autosuggestions zsh-completions)
+plugins=(colored-man-pages colorize cp git github node npm pip dirpersist zsh-completions)
 autoload -U compinit && compinit
 
 # User configuration
@@ -54,5 +54,5 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='emacs'
 else
-  export EDITOR='emacs'
+  export EDITOR='emacspeak'
 fi
