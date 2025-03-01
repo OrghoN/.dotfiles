@@ -24,6 +24,10 @@
 ;; auto close bracket insertion
 (electric-pair-mode 1)
 
+;; Setup lsp-mode
+(add-hook 'prog-mode-hook 'lsp-deferred)
+(setq lsp-warn-no-matched-clients nil)
+
 ;; Setup autocomplete with global company-mode
 (add-hook 'after-init-hook 'global-company-mode)
 
@@ -41,7 +45,7 @@
  '(custom-safe-themes
    '("4eb9462a8fff9153bfe88a9ef53aa043aec8b79c5298d2873e887e0c3a8b03de" default))
  '(package-selected-packages
-   '(lsp-mode flutter dart-mode company yaml-mode slime-volleyball slime obsidian magit leetcode auctex atom-dark-theme)))
+   '(flycheck lsp-dart lsp-mode flutter dart-mode company yaml-mode slime-volleyball slime obsidian magit leetcode auctex atom-dark-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
