@@ -22,6 +22,9 @@
 (setq read-file-name-completion-ignore-case t)
 (setq read-buffer-completion-ignore-case t)
 
+;; dirEd hide uninteresting files
+(add-hook 'dired-mode-hook (lambda () (dired-omit-mode)))
+
 ;; auto close bracket insertion
 (electric-pair-mode 1)
 
