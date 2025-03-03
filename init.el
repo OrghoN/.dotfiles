@@ -4,6 +4,7 @@
 
 ;;  Setting up emacs to use ASTER
 (add-to-list 'load-path "/opt/emacspeak/aster-math/ui")
+(load-library "/opt/emacspeak/aster-math/ui/aster.el")
 
 ;; setting up slime with sbcl
 (setq inferior-lisp-program "/usr/bin/sbcl")
