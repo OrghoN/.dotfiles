@@ -80,6 +80,8 @@ For configuring emacs using these startup scripts, the first thing is to get ema
 
 - **obsidian:**
 
+- **nvm:**
+
 ## Usage
 
 ###TODO: Add full Usage
