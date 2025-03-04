@@ -54,6 +54,8 @@ For configuring emacs using these startup scripts, the first thing is to get ema
 
 - **dtk-server:**
 
+- **espeak:**
+
 #### Other emacs prerequisites
 
 - **melpa:**
@@ -81,6 +83,8 @@ For configuring emacs using these startup scripts, the first thing is to get ema
 - **obsidian:**
 
 - **nvm:**
+
+- **forge:**
 
 ## Usage
 

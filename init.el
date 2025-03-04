@@ -35,6 +35,10 @@
 ;; Setup flycheck globally
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
+;; setup flyspell
+;; (add-hook 'text-mode-hook 'flyspell-mode)
+;; (add-hook 'prog-mode-hook 'flyspell-prog-mode)
+
 ;; Setup autocomplete with global company-mode
 (add-hook 'after-init-hook 'global-company-mode)
 
@@ -53,9 +57,9 @@
    '("4eb9462a8fff9153bfe88a9ef53aa043aec8b79c5298d2873e887e0c3a8b03de"
      default))
  '(package-selected-packages
-   '(atom-dark-theme auctex company dart-mode flutter flycheck leetcode
-		     lsp-dart lsp-mode magit nvm obsidian slime
-		     yaml-mode)))
+   '(atom-dark-theme auctex company dart-mode flutter flycheck forge
+		     leetcode lsp-dart lsp-mode magit nvm obsidian
+		     slime yaml-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
