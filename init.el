@@ -59,7 +59,7 @@
  '(package-selected-packages
    '(atom-dark-theme auctex company dart-mode flutter flycheck forge
 		     leetcode lsp-dart lsp-mode magit nvm obsidian
-		     slime yaml-mode)))
+		     slime typescript-mode yaml-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
