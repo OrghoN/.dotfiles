@@ -1,0 +1,4 @@
+#Where eaf ssh is located on personal machine
+# Where eaf ssh is located on dune/nova machines
+#export PATH=$PATH:/opt/eaf-ssh
+#export PATH=/nashome/o/oneogi/eaf-ssh:$PATH
